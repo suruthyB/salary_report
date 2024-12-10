@@ -49,6 +49,7 @@ print(salary_rank)
 
 df = spark.sql(salary_rank)
 print(df.count())
+print(df.columns)
 
 
 # COMMAND ----------
