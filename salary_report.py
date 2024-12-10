@@ -48,7 +48,7 @@ print(salary_rank)
 # COMMAND ----------
 
 df = spark.sql(salary_rank)
-print(df)
+
 
 # COMMAND ----------
 
